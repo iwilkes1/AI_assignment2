@@ -43,9 +43,9 @@ public class AlphaBetaPlayer extends Player {
 		Double bestValueSoFar = null;
 		// searches through the possible moves to find out which one is best after the
 		// search tree has been populated.
-		for (Entry<Move, AlphaBetaNode> entry : currentRoot.getSuccessors().entrySet()) {
-			moveToTest = entry.getKey();
-			nodeToTest = entry.getValue();
+		for (int i = 0; i < game.getLegalMoves().size(); i++) {
+			moveToTest = game.getLegalMoves().get(i);
+			nodeToTest = currentRoot.getSuccessors().get(i);
 
 			if (bestValueSoFar == null || bestValueSoFar < nodeToTest.getAlpha()) {
 				bestMoveSoFar = moveToTest;
@@ -55,9 +55,10 @@ public class AlphaBetaPlayer extends Player {
 
 		endTime = System.nanoTime();
 		timeDifference = endTime - startTime;
-		System.out.println(currentRoot.getNodesExplored());// + " nodes explored on turn " + game.getTurn());
+		System.out.println(currentRoot.getNodesExplored() + " nodes explored on turn " + game.getTurn());
 		System.out.println((timeDifference /1000000000) + " seconds, " + ((timeDifference /1000000 )% 1000) + " ms elapsed on turn " + game.getTurn());
 		System.out.println("Deepest depth reached: " + (maxSearchDepth - currentRoot.getLowestRemaining()));
+		System.out.println();
 		currentRoot.resetNodesExplored();
 		return bestMoveSoFar;
 	} 

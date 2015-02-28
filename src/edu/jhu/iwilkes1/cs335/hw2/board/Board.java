@@ -544,7 +544,7 @@ public class Board {
 	 * @return the board value.  this value should be between 1 and -1, exclusive.
 	 */
 	public Double getValue(boolean isPlayerBlack) {
-		int opponentThreatened = this.getLegalMoves().size();
+		int opponentThreatened = 0;
 		int playersThreatened = 0;
 
 		for (int i = 0; i < width; i++) {
@@ -561,9 +561,20 @@ public class Board {
 							playersThreatened++;
 						}
 					}
+					// checking the opponent's tiles
+				} else {
+					if (i > 0 && i < width - 1 && j > 0 && j < width - 1) {
+						if (getTile(i - 1, j).getChip() != getTile(i+1, j).getChip()) {
+							opponentThreatened++;
+						}
+						if (getTile(i, j-1).getChip() != getTile(i, j+1).getChip()) {
+							opponentThreatened++;
+						}
+					}
 				}
 			}
 		}
+
 		return opponentThreatened - playersThreatened/(1.0 * width * width);
 	}
 

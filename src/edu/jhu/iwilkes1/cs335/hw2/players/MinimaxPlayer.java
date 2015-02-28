@@ -52,7 +52,7 @@ public class MinimaxPlayer extends Player {
 		}
 		long endTime = System.nanoTime();
 		long timeDifference = endTime - startTime;
-		System.out.println(nodesExplored );//+ " nodes explored on turn " + game.getTurn());
+		System.out.println(nodesExplored + " nodes explored on turn " + game.getTurn());
 		System.out.println((timeDifference /1000000000) + " seconds, " + ((timeDifference /1000000 )% 1000) + " ms elapsed on turn " + game.getTurn());
 		System.out.println("lowest depth reached: " + (maxDepth - lowestRemaning));
 		System.out.println();
