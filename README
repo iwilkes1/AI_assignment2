@@ -1,0 +1,59 @@
+README for JHU Artificial Intelligence 600.335 
+Assignment 2: Game Playing
+Ian Wilkes
+
+This document covers my Konane game playing agents.
+
+Submission Contents
+src/Makefile: 
+	a makefile for the java code.
+src/edu/jhu/iwilkes1/cs335/hw2/Konane.java 
+	The file which contains the main function to run konane.
+
+src/edu/jhu/iwilkes1/cs335/hw2/board 
+	directory containing helper files provided
+	by Ben Mitchell.  The only file which has been edited is board.java, 
+	which has had a copy constructor added, as well as a board evaluation 
+	function.
+
+src/edu/jhu/iwilkes1/cs335/hw2/players/AlphaBetaNode.java 
+	Is a class used to recursively populate the alpha and beta values of
+	the konane search tree, depending on the maximum search depth.
+				
+
+src/edu/jhu/iwilkes1/cs335/hw2/players/MinimaxPlayer.java
+	An agent to play konane using the standard implementation of minimax.
+
+src/edu/jhu/iwilkes1/cs335/hw2/players/AlphaBetaPlayer.java
+	An agent designed to use the alpha beta node to play konane.
+
+src/edu/jhu/iwilkes1/cs335/hw2/players/Player.java
+	Standard interface to which all konane players conform.
+
+src/edu/jhu/iwilkes1/cs335/hw2/players/HumanPlayer.java
+	Implementation of a human player of konane.
+
+doc/ 
+	directory for the javadocs, which can be created by make doc from the 
+	src folder. Also contains the writeup as assignment2_writeup.pdf
+
+bin/
+	directory for all binaries created by compilation
+
+output/ 
+	directory containting a few example runs of the konane game.
+
+
+Usage
+
+In order to compile the java files required, run compile.sh.
+To run the files, run run.sh
+
+Upon startup, the code prompts the user for the size of the board.
+Allowable sizes are 4, 6, and 8.  Next, the user is prompted to decide which
+types of players they would like to use. The options are human, minimax, and 
+alpha beta pruning.  If the user selects either minimax or alpha beta, they
+will be prompted to provide a maximum search depth for that player.  
+
+I recommend depths of 10 for a 4x4 board, 8 for a 6x6 board, and 6 for an 8x8 
+board in order to get quick responses from the ai.  
