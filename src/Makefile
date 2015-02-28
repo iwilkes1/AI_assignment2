@@ -18,7 +18,7 @@ SOURCES := $(call rwildcard,edu/jhu/,*.java)
 OBJECTS := $(patsubst %.java, $(BIN_DIR)/%.class, $(SOURCES))
 
 # Package that the driver class resides in
-PACKAGE = edu.jhu.ben.cs335.hw2
+PACKAGE = edu.jhu.iwilkes1.cs335.hw2
 
 #########
 # flags for tools
