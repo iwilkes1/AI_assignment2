@@ -1,0 +1,447 @@
+make: Entering directory `/home/user-pp/Documents/ai/AI_assignment2/AI_assignment2/src'
+java -cp ../bin edu.jhu.iwilkes1.cs335.hw2.Konane 
+Let's play Konane!
+Enter board size: Enter player type for Black (1=human, 2=minmax, 3=alphabeta): Enter the maximum search depth for alpha beta player: 0
+Enter player type for White (1=human, 2=minmax, 3=alphabeta): Enter the maximum search depth for minimax player: 1
+
+===================
+Turn 0, black to play:
+---------------
+| b w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+868 nodes explored on turn 0
+0 seconds, 179 ms elapsed on turn 0
+Deepest depth reached: 5
+
+Turn 1, white to play:
+---------------
+| . w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+118 nodes explored on turn 1
+0 seconds, 0 ms elapsed on turn 1
+lowest depth reached: 4
+
+Turn 2, black to play:
+---------------
+| . . b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+256 nodes explored on turn 2
+0 seconds, 10 ms elapsed on turn 2
+Deepest depth reached: 5
+
+Turn 3, white to play:
+---------------
+| b . b w b w |
+| . b w b w b |
+| . w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+1422 nodes explored on turn 3
+0 seconds, 14 ms elapsed on turn 3
+lowest depth reached: 4
+
+Turn 4, black to play:
+---------------
+| b w . . b w |
+| . b w b w b |
+| . w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+4362 nodes explored on turn 4
+0 seconds, 97 ms elapsed on turn 4
+Deepest depth reached: 5
+
+Turn 5, white to play:
+---------------
+| . . b . b w |
+| . b w b w b |
+| . w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+4414 nodes explored on turn 5
+0 seconds, 48 ms elapsed on turn 5
+lowest depth reached: 4
+
+Turn 6, black to play:
+---------------
+| . . b w . . |
+| . b w b w b |
+| . w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+4759 nodes explored on turn 6
+0 seconds, 37 ms elapsed on turn 6
+Deepest depth reached: 5
+
+Turn 7, white to play:
+---------------
+| . . . . b . |
+| . b w b w b |
+| . w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+4907 nodes explored on turn 7
+0 seconds, 8 ms elapsed on turn 7
+lowest depth reached: 4
+
+Turn 8, black to play:
+---------------
+| . . . . b . |
+| w . . b w b |
+| . w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+4789 nodes explored on turn 8
+0 seconds, 40 ms elapsed on turn 8
+Deepest depth reached: 5
+
+Turn 9, white to play:
+---------------
+| . . . . b . |
+| w . . b w b |
+| b . . w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+4407 nodes explored on turn 9
+0 seconds, 7 ms elapsed on turn 9
+lowest depth reached: 4
+
+Turn 10, black to play:
+---------------
+| . . . . b . |
+| w . w . . b |
+| b . . w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+6192 nodes explored on turn 10
+0 seconds, 11 ms elapsed on turn 10
+Deepest depth reached: 5
+
+Turn 11, white to play:
+---------------
+| b . . . b . |
+| . . w . . b |
+| . . . w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+4056 nodes explored on turn 11
+0 seconds, 6 ms elapsed on turn 11
+lowest depth reached: 4
+
+Turn 12, black to play:
+---------------
+| b . . . b w |
+| . . w . . . |
+| . . . w b . |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+8006 nodes explored on turn 12
+0 seconds, 14 ms elapsed on turn 12
+Deepest depth reached: 5
+
+Turn 13, white to play:
+---------------
+| b . . . b w |
+| . . w . . . |
+| . . b . . . |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+3818 nodes explored on turn 13
+0 seconds, 8 ms elapsed on turn 13
+lowest depth reached: 4
+
+Turn 14, black to play:
+---------------
+| b . . w . . |
+| . . w . . . |
+| . . b . . . |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+1983 nodes explored on turn 14
+0 seconds, 2 ms elapsed on turn 14
+Deepest depth reached: 5
+
+Turn 15, white to play:
+---------------
+| b . b w . . |
+| . . . . . . |
+| . . . . . . |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+3106 nodes explored on turn 15
+0 seconds, 4 ms elapsed on turn 15
+lowest depth reached: 4
+
+Turn 16, black to play:
+---------------
+| b w . . . . |
+| . . . . . . |
+| . . . . . . |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+2398 nodes explored on turn 16
+0 seconds, 4 ms elapsed on turn 16
+Deepest depth reached: 5
+
+Turn 17, white to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . . . . . . |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+1381 nodes explored on turn 17
+0 seconds, 2 ms elapsed on turn 17
+lowest depth reached: 4
+
+Turn 18, black to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . w . . . . |
+| w . w b w b |
+| b . b w b w |
+| w b w b w b |
+---------------
+1430 nodes explored on turn 18
+0 seconds, 4 ms elapsed on turn 18
+Deepest depth reached: 5
+
+Turn 19, white to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . w . . . . |
+| w b . . w b |
+| b . b w b w |
+| w b w b w b |
+---------------
+2179 nodes explored on turn 19
+0 seconds, 3 ms elapsed on turn 19
+lowest depth reached: 4
+
+Turn 20, black to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . . . . . . |
+| w . . . w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+1711 nodes explored on turn 20
+0 seconds, 10 ms elapsed on turn 20
+Deepest depth reached: 5
+
+Turn 21, white to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . . . . . . |
+| w . . b . . |
+| b w b w b w |
+| w b w b w b |
+---------------
+1221 nodes explored on turn 21
+0 seconds, 1 ms elapsed on turn 21
+lowest depth reached: 4
+
+Turn 22, black to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . . . w . . |
+| w . . . . . |
+| b w b . b w |
+| w b w b w b |
+---------------
+389 nodes explored on turn 22
+0 seconds, 1 ms elapsed on turn 22
+Deepest depth reached: 5
+
+Turn 23, white to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| b . . w . . |
+| . . . . . . |
+| . w b . b w |
+| w b w b w b |
+---------------
+264 nodes explored on turn 23
+0 seconds, 0 ms elapsed on turn 23
+lowest depth reached: 4
+
+Turn 24, black to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| b . . w . . |
+| . . . . . . |
+| . w b w . . |
+| w b w b w b |
+---------------
+154 nodes explored on turn 24
+0 seconds, 0 ms elapsed on turn 24
+Deepest depth reached: 5
+
+Turn 25, white to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| b . . w . . |
+| . . . . . . |
+| b . . w . . |
+| w b w b w b |
+---------------
+65 nodes explored on turn 25
+0 seconds, 0 ms elapsed on turn 25
+lowest depth reached: 4
+
+Turn 26, black to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| b . . w . . |
+| w . . . . . |
+| . . . w . . |
+| . b w b w b |
+---------------
+50 nodes explored on turn 26
+0 seconds, 0 ms elapsed on turn 26
+Deepest depth reached: 5
+
+Turn 27, white to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . . . w . . |
+| . . . . . . |
+| b . . w . . |
+| . b w b w b |
+---------------
+12 nodes explored on turn 27
+0 seconds, 0 ms elapsed on turn 27
+lowest depth reached: 4
+
+Turn 28, black to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . . . w . . |
+| . . . . . . |
+| b . . w . . |
+| w . . b w b |
+---------------
+13 nodes explored on turn 28
+0 seconds, 5 ms elapsed on turn 28
+Deepest depth reached: 5
+
+Turn 29, white to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . . . w . . |
+| . . . b . . |
+| b . . . . . |
+| w . . . w b |
+---------------
+9 nodes explored on turn 29
+0 seconds, 0 ms elapsed on turn 29
+lowest depth reached: 3
+
+Turn 30, black to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . . . . . . |
+| . . . . . . |
+| b . . w . . |
+| w . . . w b |
+---------------
+3 nodes explored on turn 30
+0 seconds, 0 ms elapsed on turn 30
+Deepest depth reached: 5
+
+Turn 31, white to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . . . . . . |
+| . . . . . . |
+| b . . w . . |
+| w . . b . . |
+---------------
+2 nodes explored on turn 31
+0 seconds, 0 ms elapsed on turn 31
+lowest depth reached: 1
+
+Turn 32, black to play:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . . . . . . |
+| w . . . . . |
+| . . . w . . |
+| . . . b . . |
+---------------
+1 nodes explored on turn 32
+0 seconds, 0 ms elapsed on turn 32
+Deepest depth reached: 5
+
+Game over!  Final board state:
+---------------
+| . . b . . . |
+| . . . . . . |
+| . . . . . . |
+| w . . b . . |
+| . . . . . . |
+| . . . . . . |
+---------------
+Game won by Black after 33 turns
+make: Leaving directory `/home/user-pp/Documents/ai/AI_assignment2/AI_assignment2/src'

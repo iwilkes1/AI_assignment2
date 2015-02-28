@@ -1,0 +1,131 @@
+make: Entering directory `/home/user-pp/Documents/ai/AI_assignment2/AI_assignment2/src'
+java -cp ../bin edu.jhu.iwilkes1.cs335.hw2.Konane 
+Let's play Konane!
+Enter board size: Enter player type for Black (1=human, 2=minmax, 3=alphabeta): Enter the maximum search depth for minimax player: 0
+Enter player type for White (1=human, 2=minmax, 3=alphabeta): 
+===================
+Turn 0, black to play:
+-----------
+| b w b w |
+| w b w b |
+| b w b w |
+| w b w b |
+-----------
+580 nodes explored on turn 0
+0 seconds, 102 ms elapsed on turn 0
+lowest depth reached: 5
+
+Turn 1, white to play:
+-----------
+| . w b w |
+| w b w b |
+| b w b w |
+| w b w b |
+-----------
+Turn 1, legal moves (2): 
+(0, 1) -> (0, 1)
+(1, 0) -> (1, 0)
+Enter a move (r1 c1 r2 c2): Turn 2, black to play:
+-----------
+| . . b w |
+| w b w b |
+| b w b w |
+| w b w b |
+-----------
+186 nodes explored on turn 2
+0 seconds, 13 ms elapsed on turn 2
+lowest depth reached: 5
+
+Turn 3, white to play:
+-----------
+| b . b w |
+| . b w b |
+| . w b w |
+| w b w b |
+-----------
+Turn 3, legal moves (3): 
+(0, 3) -> (0, 1)
+(1, 2) -> (1, 0)
+(2, 1) -> (0, 1)
+Enter a move (r1 c1 r2 c2): Turn 4, black to play:
+-----------
+| b w . . |
+| . b w b |
+| . w b w |
+| w b w b |
+-----------
+243 nodes explored on turn 4
+0 seconds, 9 ms elapsed on turn 4
+lowest depth reached: 5
+
+Turn 5, white to play:
+-----------
+| . . b . |
+| . b w b |
+| . w b w |
+| w b w b |
+-----------
+Turn 5, legal moves (3): 
+(1, 2) -> (1, 0)
+(2, 1) -> (0, 1)
+(2, 3) -> (0, 3)
+Enter a move (r1 c1 r2 c2): Turn 6, black to play:
+-----------
+| . . b . |
+| w . . b |
+| . w b w |
+| w b w b |
+-----------
+74 nodes explored on turn 6
+0 seconds, 0 ms elapsed on turn 6
+lowest depth reached: 5
+
+Turn 7, white to play:
+-----------
+| . . b . |
+| w . . b |
+| b . . w |
+| w b w b |
+-----------
+Turn 7, legal moves (1): 
+(2, 3) -> (0, 3)
+Enter a move (r1 c1 r2 c2): Turn 8, black to play:
+-----------
+| . . b w |
+| w . . . |
+| b . . . |
+| w b w b |
+-----------
+3 nodes explored on turn 8
+0 seconds, 0 ms elapsed on turn 8
+lowest depth reached: 2
+
+Turn 9, white to play:
+-----------
+| b . b w |
+| . . . . |
+| . . . . |
+| w b w b |
+-----------
+Turn 9, legal moves (1): 
+(0, 3) -> (0, 1)
+Enter a move (r1 c1 r2 c2): Turn 10, black to play:
+-----------
+| b w . . |
+| . . . . |
+| . . . . |
+| w b w b |
+-----------
+1 nodes explored on turn 10
+0 seconds, 0 ms elapsed on turn 10
+lowest depth reached: 0
+
+Game over!  Final board state:
+-----------
+| . . b . |
+| . . . . |
+| . . . . |
+| w b w b |
+-----------
+Game won by Black after 11 turns
+make: Leaving directory `/home/user-pp/Documents/ai/AI_assignment2/AI_assignment2/src'
